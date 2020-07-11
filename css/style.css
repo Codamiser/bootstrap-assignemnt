@@ -1,0 +1,187 @@
+
+
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fm-rob {font-family: Arial, Helvetica, sans-serif ;}
+
+#wrapper{
+
+    margin: auto;
+    padding: 0;
+    max-width: 100%;
+    background: #f6f6f6;
+}
+
+nav {
+    padding: 20px 90px !important;
+    margin: 0;
+    background-color: #fff;
+}
+
+h1 {
+    color: #5a5c5d;
+    font-weight: 300;
+    font-size: 38px;
+}
+
+header a,
+header :link,
+header :visited {
+    color: #979797 !important;
+    display: inline-block;
+    padding: 16px 15px;
+    font-size: 14px;
+
+}
+header a:hover {
+    color: #040404 !important;
+}
+header a:active {
+    color: #2b2b2b  !important;
+}
+
+.hero-section {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.hero-section img{
+    width: 100%;
+    
+}
+
+.hero-section p {
+    padding: 14px 6px;
+    font-weight: 700;
+    font-size: 24px;
+    color:white;
+    background: #30c389 !important;
+    position: absolute;
+    top:80px;
+    left:90px;
+}
+
+
+#icons {
+    padding: 120px 90px 30px;
+}
+
+#icons h2 {
+    font-size: x-large;
+    margin-top: 30px;
+    margin-bottom:15px;
+    font-weight: 600;
+}
+
+#icons p {
+    color:#484848;
+    font-size: small;
+}
+
+.news {
+    padding:30px 90px 40px;
+}
+
+.news h2 {
+    font-size: large;
+    font-weight: bold;
+    border-bottom: 1px solid #dadada;
+    padding:8px 0;
+    margin: 17px 0;
+}
+
+.news img {
+    width: 100%;
+    margin:15px 0;
+}
+
+.news h3 {
+    font-size: large;
+    font-weight: bold;
+}
+
+.news p ,footer table{
+    color:#898989;
+    font-size: small;
+}
+
+footer.news{
+    padding:0;
+    background: #222 !important;
+}
+
+.footer1 .row{
+    padding: 30px 90px;
+}
+
+.footer1 p {
+    padding-right: 15px;
+}
+
+.footer1 h3 {
+    margin-bottom: 30px;
+}
+
+.footer2 {
+    background: #111;
+    padding:30px 0 20px;
+}
+
+footer table , footer table td, footer table tr{
+    background-color: #222;
+}
+
+footer table.table1 td {
+    padding:8px 0 !important;
+}
+
+footer table.table2 td {
+    padding:5px 0 !important;
+}
+
+/* Phone */
+@media (max-width: 767.98px) 
+{ 
+    nav,
+    #icon-section,
+    #recent-work,
+    #from-the-blog,
+    .footer1 .row{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .hero p {
+        left: 0;
+        right:0;
+        margin: auto;
+        font-size: 18px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991.98px) 
+{
+    nav,
+    #icon-section,
+    #recent-work,
+    #from-the-blog,
+    .footer1 .row{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .hero p {
+        width: max-content !important;
+        left: 100px;
+        font-size: 19px;
+    }
+}
+
+
+
